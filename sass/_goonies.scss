@@ -1,0 +1,58 @@
+.goonies{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    .goonies__row{
+     //   overflow: hidden;
+     .stag{
+        
+    }
+        display: flex;
+        .goonies__col{
+        
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            transition: transform .5s ;
+            filter: brightness(30%);
+            cursor: pointer;
+         //   border-right: 1px solid red;
+            width:25%;
+            height: 96vh;
+            background-color: aqua;
+            .goonies__text{
+                transition: all 0.5s ease;
+                font-size: 30px;
+                color: $textcolor;
+                color:black;
+                position: relative;
+                bottom: -200px;
+                .goonies__small-text{
+                    font-size: 15px;
+                }
+            }
+        }
+        .col1{
+            background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d000a3b16a6c64e19f1841b_1.jpg");
+        }
+        .col2{
+            background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d000a3b7c779fffb58ff3ed_2.jpg");
+        }
+        .col3{
+            background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d02ab04e61881f2925c8c80_gadet.jpg");
+        }
+        .col4{
+            background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d002392773f43b68a233649_4.jpg");
+        }
+        .goonies__col:hover{
+            overflow: hidden;
+            filter: brightness(100%);
+            transform: scale(1.1); 
+            .goonies__text{
+                bottom: 30px;
+            }
+        }
+        
+    }
+}
+//<div data-poster-url="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d058dcfe1a868bd88a033ed_3-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d058dcfe1a868bd88a033ed_3-transcode.mp4,https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d058dcfe1a868bd88a033ed_3-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="vd-3 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d058dcfe1a868bd88a033ed_3-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d058dcfe1a868bd88a033ed_3-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d058dcfe1a868bd88a033ed_3-transcode.webm" data-wf-ignore="true"></video></div>

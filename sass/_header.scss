@@ -1,0 +1,31 @@
+.header{
+    position: fixed;
+    z-index: 1000;
+    padding: 25px;
+    margin-left: 130px;
+    .header__section-list{
+     display: flex;
+     column-gap: 270px;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 20px;
+            color: $textcolor;
+            text-decoration: none;
+            list-style: none;
+            }
+           
+        }
+    }
+    .header__dot{
+        opacity: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+       background-color: $textcolor;
+       text-align: center;
+    }
+}

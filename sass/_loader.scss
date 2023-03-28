@@ -1,0 +1,45 @@
+// loading animation
+.loading{
+    z-index: 10000;
+    background-color: rgb(30, 29, 29) ;
+    color: white;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    font-size: 60px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+     position: fixed;
+    //display: none;
+    .loading__text{
+        position: fixed;
+        color: white;
+        text-align: center;
+        z-index: 999;
+    }
+    
+    .loading__heading{
+        position: fixed;
+        transition: all0 0.5s ease-in-out;
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        margin-top:630px;
+    }
+    .loading__loader{
+        
+       height: 100vh;
+       width: 100%;
+       position: absolute;
+       top: 80vh;
+       background-color: $blackcolor;
+     //z-index: 100000;
+    }
+}
+.hide{
+    z-index: -10000;
+    display: none;
+}

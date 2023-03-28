@@ -1,0 +1,33 @@
+$textcolor : #fafafa;
+$blackcolor: rgba(0,0,0,0.5);
+
+@import "./sass/_assets.scss";
+@import "./sass/_header.scss";
+@import "./sass/home";
+@import "./sass/plot";
+@import "./sass/goonies";
+@import "./sass//coin";
+@import "./sass/stories";
+@import "./sass/hand";
+@import "./sass/gallery";
+@import "./sass/footer";
+@import "./sass/loader";
+@import "./sass/loader";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+ //   scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+
+.fix{
+    position: fixed;
+}

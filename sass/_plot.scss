@@ -1,0 +1,47 @@
+.plot{
+    // position: fixed;
+    min-height: 100vh;
+    width: 100%;
+//     text-align: center;
+//     color: $textcolor;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// //    .plot__para{
+// //     position: fixed;
+// //    }
+//     .plot__line{
+//         width: 100%;
+//         text-align: center;
+//         height: 0px;
+//         width: 1px;
+//         background-color: $textcolor;
+//     }
+//     h2{
+//         font-size: 50px;
+//     }
+}
+.plot1{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: $textcolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   .plot__para{
+    position: fixed;
+   }
+    .plot__line{
+        width: 100%;
+        text-align: center;
+        height: 0px;
+        width: 1px;
+        background-color: $textcolor;
+    }
+    h2{
+        font-size: 50px;
+    } 
+}
